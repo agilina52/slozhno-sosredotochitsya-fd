@@ -49,7 +49,7 @@
 }
 
 @media (width >= 1024px) {
-  .theme-light .page {
+  .theme-light {
     --footer-shadow-color: #ff0070;
   }
 }

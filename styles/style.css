@@ -84,7 +84,6 @@
   }
 }
 
-
 .theme-auto .rec__decorated {
   visibility: hidden;
 }
@@ -92,8 +91,8 @@
 .rec__decorated {
   position: absolute;
   display: flex;
-  inset-inline-end: 30px;
-  inset-block-start: 22px;
+  inset-inline-end: 22px;
+  inset-block-start: 12px;
   color: #ff0070;
   font-size: 18px;
 }
@@ -208,6 +207,11 @@
     align-self: center;
     padding-inline-end: 10px;
   }
+
+  .header__theme-menu-list {
+    padding-top: 20px;
+  }
+
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -215,15 +219,12 @@
   .header__paragraph {
     padding-inline-end: 10px;
   }
+
+
 }
 @media (width >= 1024px) {
 
-  .header__paragraph {
-    max-inline-size: 600px;
-    padding-inline-end: 10px;
-    max-block-size: 70px;
-    line-height: 23px;
-  }
+  
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -235,6 +236,12 @@
     align-items: flex-start;
     justify-content: center;
     gap: 8px;
+  }
+  .header__paragraph {
+    max-inline-size: 500px;
+    padding-inline-end: 10px;
+    max-block-size: 700px;
+    line-height: 23px;
   }
 }
 
@@ -278,7 +285,7 @@
   }
 
   .title-special {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: min-content 2fr;
   }
 }
 
