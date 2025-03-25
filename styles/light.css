@@ -27,7 +27,6 @@
   visibility: hidden;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -42,15 +41,9 @@
     --footer-logo-color: #ffc2e6;
     --footer-shadow-color: #ff8dcb;
     --decor-color: #353430;
+    --footer-shadow-color-max: #ff0070;
   }
   .theme-light .rec__decorated {
     visibility: hidden;
   }
 }
-
-@media (width >= 1024px) {
-  .theme-light {
-    --footer-shadow-color: #ff0070;
-  }
-}
-
