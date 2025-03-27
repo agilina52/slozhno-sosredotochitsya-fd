@@ -197,7 +197,7 @@
 }
 
 .text-block__link {
-  text-shadow: 2px 1px var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
 }
 
@@ -380,6 +380,7 @@
       max-width: 270px;
     }
   }
+  
 
   .footer__title {
     text-shadow: 4px 4px 0 var(--footer-shadow-color-max, #ff0070);
